@@ -6,9 +6,8 @@
    oracle_db_port_value : 1521
    
   tasks:
-   -name: Install the Oracle DB
-    shell: echo Installing db...
+   - name: Install the Oracle DB
+     shell: echo Installing db...
     
-   -name: Ensure the installed service is enabled and running
-    service:
-    - name: Test
+   - name: Ensure the installed service is enabled and running
+     shell: echo Success!
