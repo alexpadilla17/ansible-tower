@@ -6,4 +6,3 @@
  
   - name: Ping
     shell: echo "Ping."
-    shell: ping 8.8.8.8
