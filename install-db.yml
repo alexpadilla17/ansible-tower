@@ -1,5 +1,5 @@
 name: install and configure DB
-   hosts: testServer
+   hosts: all
    become: yes
 
    vars: 
