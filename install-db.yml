@@ -1,14 +1,14 @@
-name: install and configure DB
-   hosts: all
-   become: yes
+- name: install and configure DB
+  hosts: localhost
+  become: yes
 
-   vars: 
-      oracle_db_port_value : 1521
+  vars: 
+   oracle_db_port_value : 1521
    
-   tasks:
+  tasks:
    -name: Install the Oracle DB
-      yum: <code to install the DB>
+    yum: <code to install the DB>
     
    -name: Ensure the installed service is enabled and running
-   service:
-      name: <your service name>
+    service:
+    - name: <your service name>
