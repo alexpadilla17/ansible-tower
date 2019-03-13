@@ -7,8 +7,8 @@
    
   tasks:
    -name: Install the Oracle DB
-    yum: <code to install the DB>
+    shell: echo Installing db...
     
    -name: Ensure the installed service is enabled and running
     service:
-    - name: <your service name>
+    - name: Test

@@ -1,7 +1,6 @@
 # This playbook uses the ping module to test connectivity to Linux hosts
 - name: Ping
   hosts: localhost
-  remote_user: apadilla 
 
   tasks: 
   - name: ping 
